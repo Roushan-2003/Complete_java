@@ -17,24 +17,6 @@ public class Functions {
 } 
 }
 */
-
-//function to display name.
-import java.util.*;
-
-public class Functions{
-	public static void printMyName(String name) {
-		System.out.println( name );
-		return;
-	}
-	public static void main (String args[]){
-		Scanner sc= new Scanner(System.in);
-		
-		System.out.print("Enter the name: ");
-		String name = sc.next();
-		
-		printMyName(name);
-	}
-}
 /*
 //Q2.print the sum of two numbers using functions
 
@@ -139,3 +121,37 @@ public class Functions{
 }
 }
 */
+
+//function to check whether a number is prime or not.
+
+import java.util.*;
+
+public class Functions {
+    // Function to check if a number is prime
+    static boolean isPrime(int n) {
+        // 1 and below are not prime
+        if (n <= 1)
+            return false;
+
+        // Check divisibility from 2 to n-1
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0)
+                return false; // If divisible, not prime
+        }
+
+        return true; // If not divisible by any number, it's prime
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        if (isPrime(num))
+            System.out.println(num + " is a prime number.");
+        else
+            System.out.println(num + " is not a prime number.");
+
+        sc.close();
+    }
+}
