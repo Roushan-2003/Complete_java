@@ -25,3 +25,4 @@ public class SumOfOddNumbers{
 		System.out.println("The sum of odd numbers from 1 to "+ n +" is : "+ result);
 	}
 }
+
