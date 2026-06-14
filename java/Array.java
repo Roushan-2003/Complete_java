@@ -69,7 +69,7 @@ public class Array{
         // output
         System.out.println("The numbers are: ");
         for(int i = 0; i<size; i++){
-            System.out.println(numbers[i]);
+            System.out.println(numbers[i] + " ");
         }
     }
     }
