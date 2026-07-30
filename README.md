@@ -1,9 +1,106 @@
-#Complete Java Course — From Beginner to Advanced
-Welcome to my Complete Java Course repository.
-Here, I’ve uploaded all my Java codes and practice programs, covering topics from beginner to advanced level.
+# Complete Java
 
-I’ll be regularly (almost daily) uploading new codes — not only to help others learn, but also to keep myself consistent with coding practice.
+A comprehensive collection of my Java programming practice, coding exercises, and mini-projects as I learn Java from beginner to advanced.
 
-If you’re learning Java or just want to explore some code, feel free to check out the files, clone the repo, or even contribute.
+## About
 
-Let’s grow and code together.
+This repository documents my journey of mastering Java. It includes core Java concepts, object-oriented programming (OOP), problem-solving exercises, coding challenges, and mini-projects.
+
+I regularly update this repository as I learn new concepts and improve my programming skills.
+
+## Tech Stack
+
+- Java
+- Visual Studio Code
+- Git
+- GitHub
+
+## Repository Structure
+
+```
+Complete_java/
+├── Basics/
+├── Variables/
+├── Data Types/
+├── Operators/
+├── User Input/
+├── Conditional Statements/
+├── Loops/
+├── Methods/
+├── Arrays/
+├── Strings/
+├── Object-Oriented Programming/
+├── Exception Handling/
+├── Collections Framework/
+├── File Handling/
+├── Practice Questions/
+└── Mini Projects/
+```
+
+## 🎯 What I'm Learning
+
+- Java Fundamentals
+- Object-Oriented Programming (OOP)
+- Methods & Functions
+- Arrays & Strings
+- Exception Handling
+- Collections Framework
+- File Handling
+- Multithreading
+- Problem Solving
+- Writing Clean and Efficient Code
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Roushan-2003/Complete_java.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Complete_java
+```
+
+Compile a Java program:
+
+```bash
+javac FileName.java
+```
+
+Run the program:
+
+```bash
+java FileName
+```
+
+## 📈 Progress
+
+- ✅ Java Basics
+- ✅ Variables & Data Types
+- ✅ User Input
+- ✅ Conditional Statements
+- ✅ Loops
+- 🔄 Methods
+- ⏳ Arrays
+- ⏳ Strings
+- ⏳ OOP
+- ⏳ Exception Handling
+- ⏳ Collections Framework
+- ⏳ File Handling
+- ⏳ Multithreading
+- ⏳ Mini Projects
+
+## 🤝 Contributions
+
+This is a personal learning repository. Suggestions, improvements, and feedback are always welcome.
+
+## 👨‍💻 Author
+
+**Roushan Kumar Mishra**
+
+GitHub: https://github.com/Roushan-2003
+
+⭐ If you find this repository useful, consider giving it a star!
