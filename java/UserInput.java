@@ -1,6 +1,6 @@
-/*
-// 1. Basic Level (Using Scanner)
 
+// 1. Basic Level (Using Scanner)
+/* 
 
 import java.util.*;
 
@@ -17,7 +17,7 @@ public class UserInput{
         sc.close();
     }
 }
-
+    
 */
 
 
