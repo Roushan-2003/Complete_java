@@ -100,3 +100,27 @@ public class Functions {
         printFactorial(n);
     }
 }
+
+
+// // Whenever you make changes to your Java files:
+
+// git status
+// git add .
+// git commit -m "Describe your changes"
+// git push
+
+// For example:
+
+// git add .
+// git commit -m "Added Functions Java file"
+// git push
+
+// Then:
+
+// git status
+
+// should show:
+
+// Your branch is up to date with 'origin/main'.
+
+// nothing to commit, working tree clean
