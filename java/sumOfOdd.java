@@ -1,26 +1,51 @@
 // problem statement: write a function to print the sum of odd numbers from 1 to n.
-import java.util.*;
+// import java.util.*;
 
-public class sumOfOdd {
+// public class sumOfOdd {
+//     static void sumOdd(int n){
+//         int sum = 0;
+
+//         for(int i = 1; i <= n; i++){
+//             if(i % 2 != 0){
+//                 sum += i;
+//             }
+//         }
+
+//         System.out.println("Sum of odd numbers = "+ sum);
+
+//     }
+
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Enter n: ");
+//         int n = sc.nextInt();
+
+//         sumOdd(n);
+//     }
+// }
+
+import java.util.*;
+public class sumOfOdd{
     static void sumOdd(int n){
         int sum = 0;
-
-        for(int i = 1; i <= n; i++){
+        for(int i = 1; i <= n ; i++){
             if(i % 2 != 0){
                 sum += i;
             }
         }
-
-        System.out.println("Sum of odd numbers = "+ sum);
-
+        System.out.print("Sum of odd numbers = "+ sum);        
     }
 
-    public static void main(String[] args){
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter n: ");
+        System.out.print("Enter number: ");
         int n = sc.nextInt();
 
         sumOdd(n);
+
+        sc.close();
     }
+
 }
+
